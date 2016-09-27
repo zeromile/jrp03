@@ -1,0 +1,51 @@
+header {
+  background-color: #ccc;
+  padding:0;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 0 0 .25em .5em;
+  color: #fff;
+  font-family: "arial-black";
+}
+nav {
+  padding: .25em;
+  background-color: #999;
+  overflow:hidden;
+}
+nav>a {
+  /*This will style the anchor tag inside of nav*/
+  font-family: arial;
+  text-decoration: none;
+  padding: .5em;
+  color: #fff;
+}
+nav>a:hover {
+  /*This will style anchor tag inside of nav on hover*/
+  color:#555;
+  background-color: #eee;
+}
+article {
+  margin:1em;
+}
+footer {
+  height:1em;
+  background-color: #222;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  padding: 1em 0;
+  text-align: center;
+}
+footer>a {
+  font-family: arial;
+  text-decoration: none;
+  color: #eee;
+  margin: 0 .5em;
+}
+footer>a:hover {
+  color:green;
+}
